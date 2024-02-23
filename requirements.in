@@ -1,0 +1,7 @@
+frictionless
+rdflib>=7.*
+rocrate
+# To avoid trying to install rdflib-json
+jupyterlab
+pandas
+humanize

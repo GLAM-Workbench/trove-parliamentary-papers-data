@@ -1,0 +1,119 @@
+{
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "description": "title of the work; multiple values separated by | symbol"
+    },
+    {
+      "name": "alternative_title",
+      "type": "string",
+      "description": "can include additional publication details such as year and number, eg: 'Vol. 2 (1991/1992), PP no. 384 of 1993'"
+    },
+    {
+      "name": "contributor",
+      "type": "string",
+      "description": "contributors such as government agencies or committees; multiple values separated by | symbol"
+    },
+    {
+      "name": "publisher",
+      "type": "string",
+      "description": "multiple values separated by | symbol"
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "description": "publication date; multiple values separated by | symbol"
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "description": "eg: 'text'; multiple values separated by | symbol"
+    },
+    {
+      "name": "format",
+      "type": "string",
+      "description": "eg: 'Book', 'volume'; multiple values separated by | symbol"
+    },
+    {
+      "name": "extent",
+      "type": "string",
+      "description": "size or physical dimensions, can include number of pages or number of words; multiple values separated by | symbol"
+    },
+    {
+      "name": "language",
+      "type": "string",
+      "description": "publication language; multiple values separated by | symbol"
+    },
+    {
+      "name": "subject",
+      "type": "string",
+      "description": "associated subject headings; multiple values separated by | symbol"
+    },
+    {
+      "name": "is_part_of",
+      "type": "string",
+      "description": "collections or series this publication is part of; multiple values separated by | symbol"
+    },
+    {
+      "name": "identifier",
+      "type": "string",
+      "description": "library identifiers; multiple values separated by | symbol"
+    },
+    {
+      "name": "rights",
+      "type": "string",
+      "description": "copyright and licensing information; multiple values separated by | symbol"
+    },
+    {
+      "name": "pages",
+      "type": "integer",
+      "description": "number of digitised pages (includes covers and endleaves)"
+    },
+    {
+      "name": "fulltext_url",
+      "type": "string",
+      "description": "link to digitised book viewer"
+    },
+    {
+      "name": "fulltext_url_text",
+      "type": "string",
+      "description": "text of link to digitised book viewer"
+    },
+    {
+      "name": "text_download_url",
+      "type": "string",
+      "description": "link to download OCRd text of book"
+    },
+    {
+      "name": "catalogue_url",
+      "type": "string",
+      "description": "link to NLA catalogue; multiple values separated by | symbol"
+    },
+    {
+      "name": "work_url",
+      "type": "string",
+      "description": "link to work record in Trove; multiple values separated by | symbol"
+    },
+    {
+      "name": "work_type",
+      "type": "string",
+      "description": "Trove work format, eg: 'Book'; multiple values separated by | symbol"
+    },
+    {
+      "name": "parent",
+      "type": "string",
+      "description": "parent work identifiers; multiple values separated by | symbol"
+    },
+    {
+      "name": "parent_url",
+      "type": "string",
+      "description": "parent work links; multiple values separated by | symbol"
+    },
+    {
+      "name": "children",
+      "type": "any",
+      "description": "child work identifiers; multiple values separated by | symbol"
+    }
+  ]
+}
