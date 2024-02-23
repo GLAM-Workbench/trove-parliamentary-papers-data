@@ -10,7 +10,6 @@
                 }
             ],
             "datePublished": "2024-02-23",
-            "description": "A GLAM Workbench data repository",
             "hasPart": [
                 {
                     "@id": "https://github.com/GLAM-Workbench/trove-government/blob/master/harvest-parliamentary-papers.ipynb"
@@ -32,6 +31,7 @@
                 "@id": "https://glam-workbench.net/trove-government"
             },
             "name": "trove-parliamentary-papers-data",
+            "description": "*A GLAM Workbench dataset*\n\nThis dataset contains metadata describing Commonwealth Parliamentary Papers that have been digitised and are made available through Trove.",
             "url": "https://github.com/GLAM-Workbench/trove-parliamentary-papers-data",
             "workExample": [
                 {
@@ -92,7 +92,6 @@
             },
             "contentSize": 30098918,
             "dateModified": "2024-02-15",
-            "description": "This dataset contains metadata describing Commonwealth Parliamentary Papers that have been digitised and are made available through Trove.",
             "encodingFormat": "text/csv",
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
