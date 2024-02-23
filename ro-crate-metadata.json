@@ -35,7 +35,7 @@
             "url": "https://github.com/GLAM-Workbench/trove-parliamentary-papers-data",
             "workExample": [
                 {
-                    "@id": "https://glam-workbench.net/datasette-lite/?csv=https://media.githubusercontent.com/media/GLAM-Workbench/trove-parliamentary-papers-data/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children"
+                    "@id": "https://glam-workbench.net/datasette-lite/?csv=https://github.com/GLAM-Workbench/trove-parliamentary-papers-data/raw/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children"
                 },
                 {
                     "@id": "https://tdg.glam-workbench.net/other-digitised-resources/parliamentary-papers/overview.html"
