@@ -1,28 +1,27 @@
 # trove-parliamentary-papers-data
 
-A GLAM Workbench data repository
+This dataset contains metadata describing Commonwealth Parliamentary Papers that have been digitised and are made available through Trove.
 
 These datasets were generated using notebooks in the [trove-government](https://github.com/GLAM-Workbench/trove-government/) repository.
 
-For more information and documentation see the [Trove government](https://glam-workbench.net/trove-government) section of the [GLAM Workbench](https://glam-workbench.net).
+For more information and documentation see the [Digitised Parliamentary Papers in Trove](https://glam-workbench.net/trove-government/trove-parliamentary-papers-data/) section of the [GLAM Workbench](https://glam-workbench.net).
 
 ## Dataset summary
 - [trove-parliamentary-papers.csv](https://github.com/GLAM-Workbench/trove-parliamentary-papers-data/raw/main/trove-parliamentary-papers.csv) (30.1 MB, text/csv)
 
 
-## Dataset contents
+## Dataset details
 
 ### [trove-parliamentary-papers.csv](https://github.com/GLAM-Workbench/trove-parliamentary-papers-data/raw/main/trove-parliamentary-papers.csv)
 
-|                |                                                                                                                                                                                                                                                                                           |
-|:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| date harvested | 2024-02-15                                                                                                                                                                                                                                                                                |
-| file size      | 30.1 MB                                                                                                                                                                                                                                                                                   |
-| format         | text/csv                                                                                                                                                                                                                                                                                  |
-| created by     | <a href='https://github.com/GLAM-Workbench/trove-government/blob/master/harvest-parliamentary-papers.ipynb'>Harvest details of Commonwealth Parliamentary Papers digitised in Trove</a> ([documentation](https://glam-workbench.net/trove-government/harvest-parliament-press-releases/)) |
-| number of rows | 24997                                                                                                                                                                                                                                                                                     |
-| description    | This dataset contains metadata describing Commonwealth Parliamentary Papers that have been digitised and are made available through Trove.                                                                                                                                                |
-| license        | [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)                                                                                                                                                                                                        |
+|                |                                                                                                                                                                                                                                                                                      |
+|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| date harvested | 2024-02-15                                                                                                                                                                                                                                                                           |
+| file size      | 30.1 MB                                                                                                                                                                                                                                                                              |
+| format         | text/csv                                                                                                                                                                                                                                                                             |
+| created by     | <a href='https://github.com/GLAM-Workbench/trove-government/blob/master/harvest-parliamentary-papers.ipynb'>Harvest details of Commonwealth Parliamentary Papers digitised in Trove</a> ([documentation](https://glam-workbench.net/trove-government/harvest-parliamentary-papers/)) |
+| number of rows | 24997                                                                                                                                                                                                                                                                                |
+| license        | [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)                                                                                                                                                                                                   |
 
 #### Columns
 
@@ -51,12 +50,6 @@ For more information and documentation see the [Trove government](https://glam-w
 | `parent`            | string  | parent work identifiers; multiple values separated by | symbol                                                     |
 | `parent_url`        | string  | parent work links; multiple values separated by | symbol                                                           |
 | `children`          | any     | child work identifiers; multiple values separated by | symbol                                                      |
-
-## Examples of use
-
-- [Explore using Datasette](https://glam-workbench.net/datasette-lite/?csv=https://media.githubusercontent.com/media/GLAM-Workbench/trove-parliamentary-papers-data/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children)
-- [Visualised in the *Trove Data Guide*](https://tdg.glam-workbench.net/other-digitised-resources/parliamentary-papers/overview.html)
-
 
 ----
 Created by [Tim Sherratt](https://timsherratt.au) for the [GLAM Workbench](https://glam-workbench.net)

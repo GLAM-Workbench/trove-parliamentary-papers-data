@@ -9,8 +9,8 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-02-23",
-            "description": "*A GLAM Workbench dataset*\n\nThis dataset contains metadata describing Commonwealth Parliamentary Papers that have been digitised and are made available through Trove.",
+            "datePublished": "2024-02-26",
+            "description": "This dataset contains metadata describing Commonwealth Parliamentary Papers that have been digitised and are made available through Trove.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-parliamentary-papers-data/archive/refs/heads/main.zip"
             },
@@ -28,8 +28,11 @@
             "isBasedOn": {
                 "@id": "https://github.com/GLAM-Workbench/trove-government/"
             },
+            "license": {
+                "@id": "https://spdx.org/licenses/MIT"
+            },
             "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-government"
+                "@id": "https://glam-workbench.net/trove-government/trove-parliamentary-papers-data/"
             },
             "name": "trove-parliamentary-papers-data",
             "url": "https://github.com/GLAM-Workbench/trove-parliamentary-papers-data",
@@ -71,10 +74,10 @@
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
             "description": "Trove includes thousands of digitised papers and reports presented to the Commonwealth Parliament. However, finding all the Parliamentary Papers is not straightforward because of inconsistencies in the way they've been arranged and described. This notebook attempts to work around these problems and harvest as complete as possible data about Parliamentary Papers in Trove.",
-            "documentation": {
-                "@id": "https://glam-workbench.net/trove-government/harvest-parliament-press-releases/"
-            },
             "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-government/harvest-parliamentary-papers/"
+            },
             "name": "Harvest details of Commonwealth Parliamentary Papers digitised in Trove",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
@@ -97,30 +100,9 @@
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
             "name": "trove-parliamentary-papers.csv",
-            "sdDatePublished": "2024-02-23",
+            "sdDatePublished": "2024-02-26",
             "size": 24997,
-            "url": "https://github.com/GLAM-Workbench/trove-parliamentary-papers-data/blob/main/trove-parliamentary-papers.csv"
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-government",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net/"
-            },
-            "name": "Trove government",
-            "url": "https://glam-workbench.net/trove-government"
-        },
-        {
-            "@id": "https://glam-workbench.net/",
-            "@type": "CreativeWork",
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
-            "name": "GLAM Workbench",
-            "url": "https://glam-workbench.net/"
+            "url": "https://github.com/GLAM-Workbench/trove-parliamentary-papers-data/raw/main/trove-parliamentary-papers.csv"
         },
         {
             "@id": "https://orcid.org/0000-0001-7956-4498",
@@ -128,18 +110,6 @@
             "mainEntityOfPage": "https://timsherratt.au",
             "name": "Sherratt, Tim",
             "orcid": "https://orcid.org/0000-0001-7956-4498"
-        },
-        {
-            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://raw.githubusercontent.com/GLAM-Workbench/trove-parliamentary-papers-data/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children",
-            "@type": "CreativeWork",
-            "name": "Explore using Datasette",
-            "url": "https://glam-workbench.net/datasette-lite/?csv=https://raw.githubusercontent.com/GLAM-Workbench/trove-parliamentary-papers-data/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children"
-        },
-        {
-            "@id": "https://tdg.glam-workbench.net/other-digitised-resources/parliamentary-papers/overview.html",
-            "@type": "CreativeWork",
-            "name": "Visualised in the *Trove Data Guide*",
-            "url": "https://tdg.glam-workbench.net/other-digitised-resources/parliamentary-papers/overview.html"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-government/",
@@ -190,13 +160,13 @@
             "version": "3.10.12"
         },
         {
-            "@id": "https://glam-workbench.net/trove-government/harvest-parliament-press-releases/",
+            "@id": "https://glam-workbench.net/trove-government/harvest-parliamentary-papers/",
             "@type": "CreativeWork",
             "isPartOf": {
-                "@id": "https://glam-workbench.net/trove-government"
+                "@id": "https://glam-workbench.net"
             },
-            "name": null,
-            "url": "https://glam-workbench.net/trove-government/harvest-parliament-press-releases/"
+            "name": "Harvest details of Commonwealth Parliamentary Papers digitised in Trove",
+            "url": "https://glam-workbench.net/trove-government/harvest-parliamentary-papers/"
         },
         {
             "@id": "#harvest-parliamentary-papers_run_0",
@@ -214,6 +184,27 @@
                     "@id": "trove-parliamentary-papers.csv"
                 }
             ]
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-government/trove-parliamentary-papers-data/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Digitised Parliamentary Papers in Trove",
+            "url": "https://glam-workbench.net/trove-government/trove-parliamentary-papers-data/"
+        },
+        {
+            "@id": "https://glam-workbench.net/datasette-lite/?csv=https://raw.githubusercontent.com/GLAM-Workbench/trove-parliamentary-papers-data/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children",
+            "@type": "CreativeWork",
+            "name": "Explore using Datasette",
+            "url": "https://glam-workbench.net/datasette-lite/?csv=https://raw.githubusercontent.com/GLAM-Workbench/trove-parliamentary-papers-data/main/trove-parliamentary-papers.csv&fts=title,alternative_title,contributor&drop=work_type,fulltext_url_text,parent,parent_url,children"
+        },
+        {
+            "@id": "https://tdg.glam-workbench.net/other-digitised-resources/parliamentary-papers/overview.html",
+            "@type": "CreativeWork",
+            "name": "Visualised in the Trove Data Guide",
+            "url": "https://tdg.glam-workbench.net/other-digitised-resources/parliamentary-papers/overview.html"
         },
         {
             "@id": "trove-parliamentary-papers-schema.json",
